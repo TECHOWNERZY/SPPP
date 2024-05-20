@@ -1,0 +1,5 @@
+extern: int a, int b;
+int c,d;
+int g;
+int k;
+int DJJ;

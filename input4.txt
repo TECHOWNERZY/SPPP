@@ -1,0 +1,4 @@
+.code
+PQR
+ABC
+endp

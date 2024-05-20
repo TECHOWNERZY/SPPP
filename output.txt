@@ -1,0 +1,5 @@
+load c
+sub d
+load a
+add b
+MEND

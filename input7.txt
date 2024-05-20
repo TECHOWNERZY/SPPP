@@ -1,0 +1,24 @@
+READ n
+LOAD zero
+STORE count
+STORE sum
+LOOP READ x
+LOAD x
+ADD sum
+STORE sum
+LOAD count
+ADD one
+STORE count
+SUB n
+JZ outer
+JMP LOOP
+outer WRITE sum
+STOP
+ENDP
+zero const 0
+one const 1
+sum DB ?
+count DB ?
+n DB ?
+x DB  ?
+ENDP

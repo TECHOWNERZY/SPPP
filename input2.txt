@@ -1,0 +1,20 @@
+macro ABC &a,&b
+load &a
+add &b
+mend
+macro XYZ &a,&b,&c
+load x
+add &a
+sub &b
+mult y
+store &c
+mend
+macro SYT &d &e
+add &d
+sub &e
+mend
+.code
+XYZ 9,10,11
+ABC 9,10
+SYT 11,14
+end

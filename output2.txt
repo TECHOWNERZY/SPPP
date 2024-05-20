@@ -1,0 +1,57 @@
+load 9
+add 10
+load x 
+add 10
+
+mult y 
+
+load x 
+add 14
+sub 15
+mult y 
+
+
+endload 9
+add 10
+load x 
+add 10
+
+mult y 
+
+load x 
+add 14
+sub 15
+mult y 
+
+
+endload x 
+add 9
+sub 10
+mult y 
+store 11
+load 9
+add 10
+add 11
+sub 14
+
+endload x 
+add 9
+sub 10
+mult y 
+store 11
+load 9
+add 10
+add 11
+sub 14
+
+endload x 
+add 9
+sub 10
+mult y 
+store 11
+load 9
+add 10
+add 11
+sub 14
+
+end
