@@ -1,0 +1,6 @@
+load a
+sub b
+load a
+add b
+load X
+endp

@@ -1,0 +1,8 @@
+sub a
+load b
+load a
+sub b
+load X
+sub a
+load b
+endp

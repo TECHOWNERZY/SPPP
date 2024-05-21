@@ -1,0 +1,11 @@
+load x 
+add 3
+sub 4
+mult y 
+store 5
+load 3
+
+load 5
+add 6
+
+end

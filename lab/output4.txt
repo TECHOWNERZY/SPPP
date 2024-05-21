@@ -1,0 +1,34 @@
+Line    Label    Mnemonic    operand    counter
+1       -        read        N          0		10
+2       -        load        zero       2		8
+3       -        store       count      4		9
+4       -        store       sum        6		9
+5       loop     read        x          8		10
+6       -        load        x          10		8
+7       -        add         sum        12		1
+8       -        store       sum        14		9
+9       -        load        count      16		8
+10      -        add         one        18		1
+11      -        store       count      20		9
+12      -        sub         N          22		2
+13      -        jz          outer      24		7
+14      -        jmp         loop       26		4
+15      outer    write       sum        28		11
+16      -        stop        -          29		12
+Line    Label    Mnemonic    operand    counter
+1       -        read        N          0		10
+2       -        load        zero       2		8
+3       -        store       count      4		9
+4       -        store       sum        6		9
+5       loop     read        x          8		10
+6       -        load        x          10		8
+7       -        add         sum        12		1
+8       -        store       sum        14		9
+9       -        load        count      16		8
+10      -        add         one        18		1
+11      -        store       count      20		9
+12      -        sub         N          22		2
+13      -        jz          outer      24		7
+14      -        jmp         loop       26		4
+15      outer    write       sum        28		11
+16      -        stop        -          29		12
