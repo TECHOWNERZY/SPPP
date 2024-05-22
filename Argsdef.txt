@@ -1,0 +1,11 @@
+MACRO ABC &a &b
+load &a
+load &b
+MEND
+MACRO XYZ &a &b &c
+Load X
+Add &a
+Sub &b
+Mult Y
+Store &c
+MEND
